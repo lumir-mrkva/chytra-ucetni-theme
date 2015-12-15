@@ -185,7 +185,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Merriweather", serif;
+    font-family: "Lora", serif;
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
     line-height: 1.75em;
@@ -503,7 +503,7 @@ body.nav-opened .site-wrapper {
     position: relative;
     display: table;
     width: 100%;
-    height: 100vh;
+    height: 66vh;
     margin-bottom: 5rem;
     text-align: center;
     background: #222 no-repeat center center;
@@ -879,7 +879,7 @@ body.nav-opened .nav {
     font-size: 2rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Merriweather", serif;
+    font-family: "Lora", serif;
     letter-spacing: 0.01rem;
     color: rgba(255,255,255,0.8);
 }
@@ -900,12 +900,14 @@ body.nav-opened .nav {
 
 /* Add subtle load-in animation for content on the home page */
 .home-template .page-title {
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     -webkit-animation: fade-in-down 0.6s;
     animation: fade-in-down 0.6s;
     -webkit-animation-delay: 0.2s;
     animation-delay: 0.2s;
 }
 .home-template .page-description {
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     -webkit-animation: fade-in-down 0.9s;
     animation: fade-in-down 0.9s;
     -webkit-animation-delay: 0.1s;
@@ -1202,7 +1204,7 @@ body:not(.post-template) .post-title {
    ========================================================================== */
 
 .post-head.main-header {
-    height: 65vh;
+    height: 29vh;
     min-height: 180px;
 }
 
@@ -1310,7 +1312,7 @@ body:not(.post-template) .post-title {
 /* Location, website, and link */
 .author-profile .author-meta {
     margin: 2rem 0;
-    font-family: "Merriweather", serif;
+    font-family: "Lora", serif;
     letter-spacing: 0.01rem;
     font-size: 1.7rem;
 }
@@ -1620,6 +1622,7 @@ body:not(.post-template) .post-title {
         height: 60vh;
         padding: 15% 0;
     }
+
 
     .scroll-down,
     .home-template .main-header:after { display: none; }
